@@ -10,7 +10,7 @@ Requirements
 * Blitz++
 
 Running the build.pl script will produce a static binary. The build is
-tested on Linux 64/32 and Mac 10.6. 
+tested on Linux 64/32, Mac 10.6, and Windows 7.
 
 Basic Usage
 -----------
@@ -38,8 +38,7 @@ procedure before it completes, the parameters for the last training
 iteration will be in in the output file. We do not support the
 standard output stream in this case, you must specify a file.
 
-`$ feast -t target.fa -q query.fa -o trained_parameters \
- -i init_file --train --cut-threshold 50`
+`$ feast -t target.fa -q query.fa -o trained_parameters -i init_file --train --cut-threshold 50`
 
 IMPORTANT: feast assumes lowercase masked input files. Thus,
 input that is completely lowercase will return no results. Use
