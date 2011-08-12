@@ -6,9 +6,12 @@ Public source repository for FEAST.
 * Precompiled binaries: [feast-bin.zip](https://github.com/downloads/akhudek/feast/feast-bin.zip)
  * Mac 1.05.
  * Linux 64/32 1.05.
- * Windows 32 [1.06][].
+ * Windows 32 1.06 [1].
 * Parameter files: [feast-parameters.zip](https://github.com/downloads/akhudek/feast/feast-parameters.zip)
 * Example input: [feast-example-input.zip](https://github.com/downloads/akhudek/feast/feast-example-input.zip)
+
+[1] Version 1.06 contains a small fence-post bug fix. Mac and Linux binaries
+to be updated later.
 
 Requirements
 ------------
@@ -56,6 +59,4 @@ all files as uppercase.
 
 Please contact (akhudek@cs.uwaterloo.ca) if you have further questions.
 
-[1.06]: Version 1.06 contains a small fence-post bug fix. Mac and Linux binaries
-to be updated later.
 
